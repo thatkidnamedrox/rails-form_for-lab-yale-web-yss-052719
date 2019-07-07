@@ -71,3 +71,6 @@ Started GET "/school_classes/new" for 24.2.197.166 at 2019-07-07 14:01:56 +0000
 Processing by SchoolClassesController#new as HTML
   Rendering school_classes/new.html.erb within layouts/application
   Rendered school_classes/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 604ms (Views: 580.4ms | ActiveRecord: 0.9ms)
+
+
