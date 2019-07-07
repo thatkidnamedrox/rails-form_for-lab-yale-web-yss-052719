@@ -34,8 +34,8 @@ describe 'form page' do
   it 'submitted new form creates a record in the database' do
     visit new_school_class_path
 
-    fill_in 'school_class_title', with: "Sabermetrics"
-    fill_in 'school_class_room_number', with: 42
+    fill_in 'school_class[title]', with: "Sabermetrics"
+    fill_in 'school_class[room_number]', with: 42
 
     click_on "Create School class"
 
